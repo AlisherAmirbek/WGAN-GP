@@ -4,6 +4,11 @@ This repository contains the implementation of a Wasserstein GAN with Gradient P
 
 This repository contains a Jupyter notebook which implements the entire pipeline for training and evaluating a Wasserstein GAN with Gradient Penalty (WGAN-GP). The notebook includes data preprocessing, model definition, training loop, and visualization of the generated images.
 
+## Sample of images
+
+![image](https://github.com/AlisherAmirbek/WGAN-GP/assets/124807619/77a98422-368e-4929-8a7d-f2c80b75ea62)
+
+
 ## Features
 - Implementation of WGAN-GP for improved training stability.
 - Use of Wasserstein distance for loss calculations, which provides meaningful training curves.
@@ -36,6 +41,14 @@ The model consists of two main components: the Generator (G) and the Critic (D),
 - Output: A score representing the critic's assessment of the data's authenticity.
 
 The key innovation in WGAN-GP is the gradient penalty, which stabilizes training by enforcing a soft version of the Lipschitz constraint on the critic. Instead of clipping the weights of the critic, we penalize the norm of the gradient of the critic with respect to its input.
+
+## Results
+
+![image](https://github.com/AlisherAmirbek/WGAN-GP/assets/124807619/be05ff06-5487-458c-8ddf-e2db2d408c57)
+
+### FID score
+
+Model scored 11.5227 of FID score which is considered to be excellent. The generated images are very similar to the real images. This is often seen in high-quality GANs.
 
 ## References
 - Original WGAN paper: "Wasserstein GAN" by Martin Arjovsky, Soumith Chintala, and Léon Bottou.
