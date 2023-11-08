@@ -1,4 +1,4 @@
-# Model Name: Wasserstein GAN with Gradient Penalty (WGAN-GP)
+# Wasserstein GAN with Gradient Penalty (WGAN-GP)
 
 This repository contains the implementation of a Wasserstein GAN with Gradient Penalty (WGAN-GP). It was trained on the Handwritten Letters Dataset (https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format/data).
 
